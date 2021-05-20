@@ -4,7 +4,7 @@ This repo demonstrates how to compute the covariances using MC dropout for the s
 
 ### how to train 
 
-- use [this repo]()
+- use [this repo](https://github.com/shanmo/OrcVIO-Keypoint-Detection-Training)
 - pretrained weights are [here](https://www.dropbox.com/sh/ftr48u964auwje4/AAAX7rAeMLtZjeydqPpkyo8Za?dl=0)
 
 ### how to run 
