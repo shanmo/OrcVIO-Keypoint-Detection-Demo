@@ -4,8 +4,8 @@ This repo demonstrates how to compute the covariances using MC dropout for the s
 
 ### how to train 
 
-- use [this repo](https://github.com/moshanATucsd/starmap_train_with_dropout)
-- pretrained weights are [here](https://github.com/moshanATucsd/orcvio_pytorch_models)
+- use [this repo]()
+- pretrained weights are [here](https://www.dropbox.com/sh/ftr48u964auwje4/AAAX7rAeMLtZjeydqPpkyo8Za?dl=0)
 
 ### how to run 
 
@@ -17,6 +17,8 @@ This repo demonstrates how to compute the covariances using MC dropout for the s
     img_path = root + 'images/car2.png'
     det_name = root + 'det/car2.png'
 ```
+
+### demo 
 
 * run the main 
 
@@ -72,3 +74,7 @@ for i in range(size // 2, det.shape[0] - size // 2):
                      det[i, j - 1], det[i, j], det[i, j + 1],
                      det[i + 1, j - 1], det[i + 1, j], det[i + 1, j + 1]))
 ```
+
+### reference 
+
+- https://github.com/xingyizhou/StarMap
